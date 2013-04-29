@@ -173,19 +173,19 @@ public class AndroChartDemo extends Activity{
     		
 	        	   pChart=new PieChart(this); 
 	        	 
-	           // Note: pie charts is always drawn for first series, in this case it is Google.
+	          // Note: pie charts is always drawn for first series, in this case it is Google.
 	         	  pChart.setDataTable(datatbl);
 	         	  RelativeLayout.LayoutParams chartLay2=new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.FILL_PARENT,RelativeLayout.LayoutParams.FILL_PARENT);       
 	        	
 	        	   pChart.setColorStyle(ColorStyle.MONO);
 	         	  pChart.setTitle("Service sell statistics : Jan 2012 - Jun 2012");
 	         	
-	           // specify where data label lies,
+	          // specify where data label lies,
 	         	  pChart.setDataLabelStyle(PieChart.OUT);
 	         	
  	
 	         	  pChart.setTitleTextSize(12);
-	           // uncomment below properties to customize pie chart
+	          // uncomment below properties to customize pie chart
 	        	
 	       /*  	
 	         	  pChart.setTitleColor(Color.RED);        	
